@@ -8,6 +8,5 @@ package com.panion.space.factory;
  * @Version 1.0
  */
 public interface Work {
-
 	void findWork();
 }
