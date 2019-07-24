@@ -7,7 +7,7 @@ package com.panion.space.factory;
  * @Date 2019/7/2415:46
  * @Version 1.0
  */
-public class Mother implements Work{
+public class Mother implements Work {
 
 	@Override
 	public void findWork() {

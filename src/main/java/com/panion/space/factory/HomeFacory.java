@@ -9,15 +9,15 @@ package com.panion.space.factory;
  */
 public class HomeFacory {
 
-	public Work getFindWork(String people){
-		if(null == people){
+	public Work getFindWork(String people) {
+		if (null == people) {
 			return null;
 		}
-		if(people.equalsIgnoreCase("father")){
+		if (people.equalsIgnoreCase("father")) {
 			return new Father();
-		}else if("mother".equalsIgnoreCase(people)){
+		} else if ("mother".equalsIgnoreCase(people)) {
 			return new Mother();
-		}else if("son".equalsIgnoreCase(people)){
+		} else if ("son".equalsIgnoreCase(people)) {
 			return new Son();
 		}
 		return null;
