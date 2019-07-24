@@ -18,6 +18,7 @@ public class HomeTest {
 	 */
 	public static void main(String[] args) {
 		HomeFacory facory = new HomeFacory();
+
 		Work work = facory.getFindWork("father");
 		work.findWork();
 
