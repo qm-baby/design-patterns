@@ -11,6 +11,7 @@ public class FactoryDemo {
 
 	/**
 	 * 通过指定工厂来获取所需要的业务
+	 *
 	 * @param args
 	 */
 	public static void main(String[] args) {

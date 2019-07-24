@@ -7,7 +7,7 @@ package com.panion.space.abstractFactory;
  * @Date 2019/7/24 17:04
  * @Version 1.0
  */
-public class Maserati implements Car{
+public class Maserati implements Car {
 
 	@Override
 	public void myCar() {

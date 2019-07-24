@@ -11,6 +11,6 @@ public class Father implements Work {
 
 	@Override
 	public void findWork() {
-		System.out.println("爸爸在整合资源后开了一家茶餐厅！");
+		System.out.println("爸爸在整合资源后开了一家茶餐厅!");
 	}
 }

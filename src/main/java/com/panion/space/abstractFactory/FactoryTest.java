@@ -9,10 +9,10 @@ package com.panion.space.abstractFactory;
  */
 public class FactoryTest {
 
-	public static AbstractFactory getFactory(String factory){
-		if(factory.equalsIgnoreCase("work")){
+	public static AbstractFactory getFactory(String factory) {
+		if (factory.equalsIgnoreCase("work")) {
 			return new WorkFactory();
-		}else if(factory.equalsIgnoreCase("car")){
+		} else if (factory.equalsIgnoreCase("car")) {
 			return new CarFactory();
 		}
 		return null;

@@ -11,6 +11,6 @@ public class Mother implements Work {
 
 	@Override
 	public void findWork() {
-		System.out.println("妈妈在朋友的推荐下找到了一份早九晚五的工作！");
+		System.out.println("妈妈在朋友的推荐下找到了一份早九晚五的工作!");
 	}
 }

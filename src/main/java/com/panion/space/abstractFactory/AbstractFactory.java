@@ -10,5 +10,6 @@ package com.panion.space.abstractFactory;
 public abstract class AbstractFactory {
 
 	public abstract Car getMyCar(String car);
+
 	public abstract Work findWork(String people);
 }

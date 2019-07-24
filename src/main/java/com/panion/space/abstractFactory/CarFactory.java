@@ -10,14 +10,14 @@ package com.panion.space.abstractFactory;
 public class CarFactory extends AbstractFactory {
 	@Override
 	public Car getMyCar(String car) {
-		if(null == car){
+		if (null == car) {
 			return null;
 		}
-		if("Porsche".equalsIgnoreCase(car)){
+		if ("Porsche".equalsIgnoreCase(car)) {
 			return new Porsche();
-		}else if("Maserati".equalsIgnoreCase(car)){
+		} else if ("Maserati".equalsIgnoreCase(car)) {
 			return new Maserati();
-		}else if("Wrangler".equalsIgnoreCase(car)){
+		} else if ("Wrangler".equalsIgnoreCase(car)) {
 			return new Wrangler();
 		}
 		return null;

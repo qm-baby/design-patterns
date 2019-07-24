@@ -11,6 +11,6 @@ public class Son implements Work {
 
 	@Override
 	public void findWork() {
-		System.out.println("儿子在传媒公司找到了一份好工作！");
+		System.out.println("儿子在传媒公司找到了一份好工作!");
 	}
 }
